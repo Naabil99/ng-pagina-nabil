@@ -1,0 +1,12 @@
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{entrenador.imagen}}" width="200" height="200" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{entrenador.nombre}}</h5>
+    <p class="card-text">{{entrenador.detalles}}</p>
+    <p class="card-text">Años de experiencia: {{entrenador.experiencia}}</p>
+    <a [routerLink]="['/entrenadors', entrenador.id]" class="btn btn-primary">editar</a>
+  </div>
+</div>
+
+ 

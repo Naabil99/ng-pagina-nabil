@@ -1,0 +1,16 @@
+
+<div class="jumbotron">
+  <div class="container text-center">
+      <h1 style="padding-top: 10%; color: white;">Entrena con nosotros si desea gozar</h1>
+      <br>
+          <button class="btn btn-comenzar">INSCRIBIRSE</button>
+        
+  </div>
+</div>
+<h1 class="text-center">ENTRENADORES</h1>
+  <div class="row">
+    <div *ngFor="let entrenador of entrenadors" class="col-12 col-md-6  col-lg-4">
+      <app-entrenador-item [entrenador]="entrenador"></app-entrenador-item>
+    </div>
+  </div>
+ 

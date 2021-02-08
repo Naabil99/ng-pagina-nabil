@@ -1,0 +1,24 @@
+<figure class="figure">
+  <figcaption class="figure-caption">
+    <br><br><br>
+  <img src="{{entrenador.imagen}}" width="200" height="200" alt="Card image cap">
+    <h5>Nombre: {{entrenador.nombre}}</h5>
+    <h5>Detalles: {{entrenador.detalles}}</h5>
+    <h5>Años de experiencia: {{entrenador.experiencia}}</h5>
+  </figcaption>
+</figure>
+
+<div class="row mt-4">
+  <div class="col-md-4">
+    <button class="btn btn-outline-secondary mr-3"
+            style="width:80px"
+            (click)="onBack()">
+      <i class="fa fa-chevron-left"></i> Back
+    </button>
+    <button class="btn btn-outline-primary"
+            style="width:80px"
+            (click)="goEdit()">
+      Edit
+    </button>
+  </div>
+</div>
